@@ -1,27 +1,37 @@
 # Scalable REST API Test Automation Framework
 
-This project is a lightweight API testing framework built using Python, PyTest, and Requests.
+A lightweight automation testing framework built using Python and PyTest to validate REST APIs.
 
 ## Features
-
 - Automated REST API testing
 - Status code validation
-- Response structure verification
-- POST request testing
-- Reusable API client utilities
+- Response schema validation
+- Response time performance testing
+- Structured logging for debugging
+- HTML test report generation
 
 ## Tech Stack
+- Python
+- PyTest
+- Requests
+- PyTest-HTML
 
-Python  
-PyTest  
-Requests  
+## Project Structure
 
-## Running Tests
+api-testing-framework
+│
+├── tests
+├── utils
+├── config
+├── logs
+├── requirements.txt
 
-Install dependencies:
+## Run Tests
 
 pip install -r requirements.txt
 
-Run tests:
-
 pytest
+
+## Generate HTML Test Report
+
+pytest --html=report.html
