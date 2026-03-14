@@ -1,4 +1,4 @@
-# Automated REST API Testing Framework
+# Scalable REST API Test Automation Framework
 
 This project is a lightweight API testing framework built using Python, PyTest, and Requests.
 
